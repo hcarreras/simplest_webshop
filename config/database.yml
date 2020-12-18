@@ -16,12 +16,12 @@ local: &local
 # Development config
 development:
   <<: *local
-  database: project_name_snake_development
+  database: simplest_webshop_development
 
 # Test config
 test:
   <<: *local
-  database: project_name_snake_test
+  database: simplest_webshop_test
 
 # Staging/Production config
 production:
